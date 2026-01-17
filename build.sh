@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t rippersk/uprock-webgui:0.15 .
+docker build -t rippersk/uprock-webgui:0.16 .

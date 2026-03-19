@@ -20,8 +20,8 @@ ar x UpRock-Mining-$VER.deb
 # Untar
 tar --zstd -xvf data.tar.zst
 
-# Copy over binary
-cp ./bin/uprock-mining .
+# Move over binary
+mv ./bin/uprock-mining .
 
 # Remove trash
-rm -r ./bin ./usr ./data.tar.zst ./control.tar.zst ./UpRock-Mining-$VER*
+rm -r ./bin ./usr ./data.tar.zst ./control.tar.zst ./UpRock-Mining-$VER* debian-binary
